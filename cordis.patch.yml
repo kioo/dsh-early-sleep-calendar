@@ -1,0 +1,6 @@
+# Bundle patch for the early-sleep calendar: one host row (the records store and
+# its `/api/early-sleep/records` route) plus the browser half declared by
+# `dsh.client` in package.json.
+- insert:
+    - id: early-sleep-calendar
+      name: dsh-early-sleep-calendar
